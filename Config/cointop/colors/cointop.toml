@@ -1,0 +1,76 @@
+colorscheme = "cointop"
+
+base_fg = "white"
+base_bg = "transparent"
+
+chart_fg = "white"
+chart_bg = "transparent"
+chart_bold = false
+
+marketbar_fg = "white"
+marketbar_bg = "transparent"
+marketbar_bold = false
+
+marketbar_label_active_fg = "cyan"
+marketbar_label_active_bg = "transparent"
+marketbar_label_active_bold = false
+
+menu_fg = "white"
+menu_bg = "transparent"
+menu_bold = false
+
+menu_header_fg = "transparent"
+menu_header_bg = "green"
+menu_header_bold = false
+
+menu_label_fg = "yellow"
+menu_label_bg = "transparent"
+menu_label_bold = false
+
+menu_label_active_fg = "yellow"
+menu_label_active_bg = "transparent"
+menu_label_active_bold = true
+
+searchbar_fg = "#191724"
+searchbar_bg = "white"
+searchbar_bold = false
+
+statusbar_fg = "#191724"
+statusbar_bg = "cyan"
+statusbar_bold = false
+
+table_column_price_fg = "cyan"
+table_column_price_bg = "transparent"
+table_column_price_bold = false
+
+table_column_change_fg = "white"
+table_column_change_bg = "transparent"
+table_column_change_bold = false
+
+table_column_change_down_fg = "red"
+table_column_change_down_bg = "transparent"
+table_column_change_down_bold = false
+
+table_column_change_up_fg = "green"
+table_column_change_up_bg = "transparent"
+table_column_change_up_bold = false
+
+table_header_fg = "#191724"
+table_header_bg = "green"
+table_header_bold = false
+
+table_header_column_active_fg = "transparent"
+table_header_column_active_bg = "cyan"
+table_header_column_active_bold = false
+
+table_row_fg = "white"
+table_row_bg = "#191724"
+table_row_bold = false
+
+table_row_active_fg = "#191724"
+table_row_active_bg = "cyan"
+table_row_active_bold = false
+
+table_row_favorite_fg = "yellow"
+table_row_favorite_bg = "transparent"
+table_row_favorite_bold = false
