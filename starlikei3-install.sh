@@ -63,10 +63,10 @@ pip install tuir	#commandline reddit client for quick browsing
 
 pkg install proot-distro -y
 proot-distro install debian
-proot-distro login debian
-apt update
-apt install alacritty -y
-exit
+# proot-distro login debian #cant log in during the script, only via prun later, otherwise itll get stuck here after login as it cant execute things in debian
+# apt update
+# apt install alacritty -y
+#use these as last commands
 
 # SUPER OPTIONAL if you want a GUI for debian side too - mostly unnecessary
 
