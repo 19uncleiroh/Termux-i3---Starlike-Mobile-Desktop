@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #################################  APPEARANCE  & DESKTOP   ###################################################
 
 # Clone Repo & Rename Folder -- IMPORTANT - when you make it public eventually, change to HTML instead of SSH
