@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Exec=xdotool exec xfce4-terminal -e ddgr
+Icon=duckstation-qt
+Terminal=false
+Categories=System;TerminalEmulator;
+
+Name=DuckDuckGo Search
+GenericName=DDG Search via Cli
+Comment=A fast, cross-platform, OpenGL terminal emulator
+StartupWMClass=Alacritty
+Actions=New;
+

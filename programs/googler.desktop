@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Exec=proot-distro login debian  --shared-tmp -- env DISPLAY=:0 alacritty -e googler
+Icon=google
+Terminal=false
+Categories=System;TerminalEmulator;
+
+Name=Google Search
+GenericName=Quickly Google From Terminal
+Comment=A fast, cross-platform, OpenGL terminal emulator
+StartupWMClass=Alacritty
+Actions=New;
+

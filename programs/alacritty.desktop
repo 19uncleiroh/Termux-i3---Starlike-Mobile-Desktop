@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Exec=proot-distro login debian  --shared-tmp -- env DISPLAY=:0 alacritty
+Icon=Alacritty
+Terminal=false
+Categories=System;TerminalEmulator;
+
+Name=Alacritty
+GenericName=Terminal
+Comment=A fast, cross-platform, OpenGL terminal emulator
+StartupWMClass=Alacritty
+Actions=New;
+

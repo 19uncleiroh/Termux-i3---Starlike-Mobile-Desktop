@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Ranger
+GenericName=File Explorer (cli)
+Icon=org.xfce.thunar
+Terminal=false
+Exec=xdotool exec xfce4-terminal -e "ranger --cmd='set viewmode=multipane' ./ ./" 
+Categories=ConsoleOnly;System;FileTools;FileManager
+MimeType=inode/directory;
+Keywords=File;Manager;Browser;Explorer;Launcher;Vi;Vim;Python

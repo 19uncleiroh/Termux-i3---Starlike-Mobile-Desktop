@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Qalc - Calculate & Convert
+GenericName=Cli Calculator, Unit & Currency Converter
+Exec=xdotool exec xfce4-terminal -e qalc
+Icon=calc
+Terminal=false
+Type=Application
+Categories=System;Utility;Currency;Finance;Calculator;Units

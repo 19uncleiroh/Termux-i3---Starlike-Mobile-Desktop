@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Kill i3
+GenericName=Exits i3 and Termux Sessions Completely
+Exec=xdotool key Alt+Ctrl+k 
+Icon=exit
+Terminal=false
+Type=Application
+Categories=Multimedia;Fun;Music;Social Media

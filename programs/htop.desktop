@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=HTOP Monitor
+GenericName=Cli Task Manager
+Exec=xdotool exec xfce4-terminal -e htop
+Icon=org.xfce.taskmanager
+Terminal=false
+Type=Application
+Categories=System;Utility;Tasks;Programs;Monitor

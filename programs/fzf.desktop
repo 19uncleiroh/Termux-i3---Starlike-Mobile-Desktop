@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Fzf Filesystem Search
+GenericName=Simple Terminal Tool for Searching System
+Exec=xdotool exec xfce4-terminal -e fzf
+Icon=search
+Terminal=false
+Type=Application
+Categories=Multimedia;Fun;Music;Social Media

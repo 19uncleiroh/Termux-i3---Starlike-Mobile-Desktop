@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Links 2
+GenericName=Commandline Web Browser
+Exec=xdotool exec xfce4-terminal -e links2
+Icon=links
+Terminal=false
+Categories=Network;WebBrowser;
+Comment=Web browser running in both graphics and text mode
+Comment[pt_BR]=Navegador web que funciona tanto no modo texto como no modo gráfico
+Keywords=lightweight;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Super Mari0
+Exec=prun love /opt/mari0
+Icon=SuperMario64
+GenericName=With Portal Gun
+#/root/../usr/var/lib/proot-distro/installed-rootfs/debian/opt/mari0/graphics/icon.png
+Categories=Game
+Terminal=false

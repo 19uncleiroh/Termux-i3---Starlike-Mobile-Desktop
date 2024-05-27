@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=ncmpcpp
+GenericName=Music Player (cli)
+Icon=audio-player
+Terminal=false
+Exec=xdotool exec xfce4-terminal -e ncmpcpp
+Categories=Multimedia
+Keywords=Media;Music;Player;Audio;Sound

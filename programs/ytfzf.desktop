@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Youtube CLI
+GenericName=Listen to Youtube & Download Videos/Music
+Exec=xdotool exec xfce4-terminal -e ytfzf
+Icon=youtube
+Terminal=false
+Type=Application
+Categories=Multimedia;Fun;Music;Social Media

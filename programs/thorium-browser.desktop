@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Thorium
+Comment=Thorium
+Exec=prun thorium-browser --no-sandbox
+Icon=thorium-browser
+Categories=Network;
+Terminal=false

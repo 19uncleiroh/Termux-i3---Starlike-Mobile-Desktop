@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=pkgtop cli
+GenericName=Commandline Package Manager
+Exec=xdotool exec xfce4-terminal -e pkgtop
+Icon=synaptic
+Terminal=false
+Type=Application
+Categories=Multimedia;Fun;Music;Social Media

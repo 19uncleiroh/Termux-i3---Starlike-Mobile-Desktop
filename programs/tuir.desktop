@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=xdotool exec xfce4-terminal -e tuir
+Icon=reddit
+Terminal=falses
+Categories=Social;Social Media;Fun;Browsing;Multimedia;
+
+Name=Reddit (TUIR)
+GenericName=Browse Reddit in Terminal
+

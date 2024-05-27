@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=WeGo Weather
+GenericName=Simple Commandline Weather Forecast
+Exec=xdotool exec xfce4-terminal -e wego
+Icon=weather
+Terminal=false
+Type=Application
+Categories=Multimedia;Fun;Music;Social Media

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Cointop
+GenericName=Coingecko Cryptocurrency Monitor
+Icon=bitcoin
+Terminal=false
+Exec=xdotool exec xfce4-terminal -e cointop
+Categories=Finance
+Keywords=Crypto;Finance;Bitcoin;Ethereum;Currency;Money

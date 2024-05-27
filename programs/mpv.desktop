@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=MPV Player
+GenericName=Swiss Army Knife for Video & Audio
+Exec=xdotool exec xfce4-terminal -e mpv
+Icon=mpv
+Terminal=false
+Type=Application
+Categories=Multimedia;Fun;Music;Social Media

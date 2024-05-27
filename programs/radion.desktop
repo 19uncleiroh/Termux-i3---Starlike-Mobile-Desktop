@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Radion
+GenericName=Simple Cli Radio Player
+Exec=xdotool exec xfce4-terminal -e radion
+Icon=radio
+Terminal=false
+Type=Application
+Categories=Multimedia;Fun;Music;Social Media

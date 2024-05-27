@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=PulseMixer
+GenericName=Audio Output/Input & Volume Control
+Icon=multimedia-volume-control
+Terminal=false
+Exec=xdotool exec xfce4-terminal -e pulsemixer
+Categories=Multimedia
+Keywords=Media;Music;Player;Audio;Sound

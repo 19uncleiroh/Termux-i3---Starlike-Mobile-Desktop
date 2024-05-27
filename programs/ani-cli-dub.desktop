@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Anime Client (DUB)
+GenericName=Watch & DL (DUBBED) Anime via Terminal
+Exec=xdotool exec xfce4-terminal -e "ani-cli -v --dub" 
+Icon=funkin
+Terminal=false
+Type=Application
+Categories=Multimedia;Fun;Music;Social Media

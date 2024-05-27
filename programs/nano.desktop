@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Nano
+GenericName=Minimal Terminal Text Editor/Notepad
+Exec=xdotool exec xfce4-terminal -e nano
+Icon=notes
+Terminal=false
+Type=Application
+Categories=Multimedia;Fun;Music;Social Media
