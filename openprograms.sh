@@ -1,0 +1,32 @@
+#!/bin/bash
+
+xdotool exec mpd
+sleep 1
+
+#Set up Workspace 4
+xdotool key Alt+4
+xdotool exec xfce4-terminal -e cointop
+sleep 0.5
+xdotool exec xfce4-terminal -e peaclock
+sleep 0.5
+xdotool key Alt+v
+xdotool exec xfce4-terminal -e ncmpcpp
+sleep 0.5
+
+#Set up Workspace 3
+xdotool key Alt+3
+xdotool exec xfce4-terminal
+sleep 0.5
+
+#Set up Workspace 2
+xdotool key Alt+2
+xdotool exec xfce4-terminal -e ranger
+sleep 0.5
+
+#Set up Workspace 1
+xdotool key Alt+1
+xdotool key Shift+Return
+xdotool key Alt+b
+sleep 1
+xdotool key Tab Tab Tab Tab
+xdotool key Return
