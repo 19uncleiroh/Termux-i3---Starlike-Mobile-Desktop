@@ -1,0 +1,5 @@
+#!/bin/bash
+varname=$(basename $root/../usr/var/lib/proot-distro/installed-rootfs/debian/home/*)
+proot-distro login debian  --shared-tmp -- env DISPLAY=:0 nohup $@ &
+
+# Method 2 - replace "$@ </dev/null &>/dev/null &" with "nohup $@ &"#

@@ -1,0 +1,27 @@
+#!/bin/bash
+
+xdotool exec mpd
+sleep 1
+
+xdotool key Alt+2
+xdotool exec xfce4-terminal -e cointop
+xdotool exec xfce4-terminal -e peaclock
+sleep 0.1
+xdotool key Alt+v
+xdotool exec xfce4-terminal -e ncmpcpp
+sleep 0.1
+
+xdotool key Alt+3
+xdotool exec xfce4-terminal -e ranger
+sleep 0.1
+xdotool key Alt+v
+xdotool exec xfce4-terminal -e nano
+sleep 0.1
+
+xdotool key Alt+1
+xdotool key Shift+Return
+sleep 0.1
+xdotool key Alt+Left
+xdotool key Alt+q
+sleep 0.1
+xdotool key Return
