@@ -1,7 +1,7 @@
 #!/bin/bash
-
+#git clone git@github.com:19uncleiroh/Termux-i3---Starlike-Mobile-Desktop.git
 # Base Setup
-pkg update && upgrade
+pkg update && upgrade -y
 pkg install x11-repo
 pkg install termux-x11-nightly
 
@@ -65,7 +65,7 @@ pkg install proot-distro -y
 proot-distro install debian
 proot-distro login debian
 apt update
-apt install xfce4-terminal -y
+apt install alacritty -y
 exit
 
 # SUPER OPTIONAL if you want a GUI for debian side too - mostly unnecessary
@@ -89,7 +89,6 @@ exit
 #################################  APPEARANCE  & DESKTOP   ###################################################
 
 # Clone Repo & Rename Folder -- IMPORTANT - when you make it public eventually, change to HTML instead of SSH
-git clone git@github.com:19uncleiroh/Termux-i3---Starlike-Mobile-Desktop.git
 mv Termux-i3---Starlike-Mobile-Desktop Starlike
 
 # Make Scripts Executable Without ./x.sh  & Move to System Bin
