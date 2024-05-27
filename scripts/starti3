@@ -25,6 +25,6 @@ env DISPLAY=:0 dbus-launch --exit-with-session i3 & > /dev/null 2>&1
 
 # Start layout & programs
 
-env DISPLAY=:0 sh op
+env DISPLAY=:0 op
 
 exit 0
