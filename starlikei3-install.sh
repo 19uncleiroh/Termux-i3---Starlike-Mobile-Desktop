@@ -113,15 +113,13 @@ mv ~/Starlike/i3status.conf $PREFIX/etc
 mv ~/Starlike/.Xresources ~/
 
 # Import & Move Configs
-
+mv ~/Starlike/Config/state ~/.mpd
 rm -rf .config
 mv ~/Starlike/Config ~/
 mv Config .config
 
 rm -rf $PREFIX/share/xfce4
 mv ~/Starlike/xfce4 $PREFIX/share
-
-mv ~/Starlike/Config/state ~/.mpd
 
 # Choose Icon Set
 
