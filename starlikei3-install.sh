@@ -22,7 +22,7 @@ pkg install tur-repo		#access to chromium, vss code, etc. - if you are happy wit
 # Setup Audio
 pkg install pulseaudio -y	#for music playback via browsers, not necessary for local audio players etc.
 pip install pulsemixer -y	#minimalist cli-based volume control
-pip install mpc -y		#necessary for bottom bar widget - very optional
+pkg install mpc -y		#necessary for bottom bar widget - very optional
 
 #Define Optional Software to Be Installed (Feel Free to Modify Selection)
 
