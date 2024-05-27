@@ -89,7 +89,7 @@ exit
 #################################  APPEARANCE  & DESKTOP   ###################################################
 
 # Clone Repo & Rename Folder -- IMPORTANT - when you make it public eventually, change to HTML instead of SSH
-mv Termux-i3---Starlike-Mobile-Desktop Starlike
+#mv Termux-i3---Starlike-Mobile-Desktop Starlike
 
 # Make Scripts Executable Without ./x.sh  & Move to System Bin
 cd scripts
