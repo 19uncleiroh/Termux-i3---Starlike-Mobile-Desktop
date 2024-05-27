@@ -1,0 +1,263 @@
+sw_volume: 4
+audio_device_state:0:PulseAudio Output
+audio_device_state:1:OpenSLES output
+audio_device_state:0:OpenAL output
+audio_device_state:0:ncmpcpp visualizer
+state: pause
+current: 10
+time: 112.058000
+random: 0
+repeat: 1
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+song_begin: /data/data/com.termux/files/home/Music/Right Kind of Wrong - LeAnn Rimes - Lyrics [pN0p44dGhI4].opus
+Time: 229.267000
+Artist: Leann Rimes
+Title: Right Kind of Wrong
+mtime: 1716561478
+song_end
+song_begin: /data/data/com.termux/files/home/Music/Same Girl (Feat Usher).opus
+Time: 256.447000
+Artist: R KELLY
+Title: Same Girl (Feat Usher)
+mtime: 1716286437
+song_end
+song_begin: /data/data/com.termux/files/home/Music/Luckiest Man.opus
+Time: 201.687000
+Artist: Usher
+Title: Luckiest Man
+mtime: 1716561948
+song_end
+song_begin: /data/data/com.termux/files/home/Music/A New Day Has Come (Radio Remix) - Celine Dion - A New Day Has Come [sXvYd13rdrE].opus
+Time: 259.387000
+Artist: Celine Dion
+Title: New Day Has Come
+mtime: 1716561497
+song_end
+song_begin: /data/data/com.termux/files/home/Music/A-Town Girl.opus
+Time: 212.587000
+Artist: Usher
+Title: A-Town Girl
+mtime: 1716561964
+song_end
+song_begin: /data/data/com.termux/files/home/Music/Anna Clendening - Invisible (Justin Caruso Remix) [SUdrB2E_-b4].opus
+Time: 219.867000
+Artist: Anna Clendening
+Title: Invisible
+mtime: 1716622429
+song_end
+song_begin: /data/data/com.termux/files/home/Music/Boy In Space - 7UP [Official Video] [cgyYXw7qLQg].opus
+Time: 201.887000
+Artist: Boy In Space
+Title: 7UP
+mtime: 1716562795
+song_end
+song_begin: /data/data/com.termux/files/home/Music/Boy In Space - Caroline  [Official Video] [G95PSPyori4].opus
+Time: 153.467000
+Artist: Boy In Space
+Title: Caroline
+mtime: 1716562809
+song_end
+song_begin: /data/data/com.termux/files/home/Music/Boy In Space - Cold (Lyrics) [sIIdNAynO-M].opus
+Time: 199.567000
+Artist: Boy In Space
+Title: Cold
+mtime: 1716562824
+song_end
+song_begin: /data/data/com.termux/files/home/Music/Boy In Space - Drown [Official Lyric Video] [OuKrORXbkaE].opus
+Time: 203.927000
+Artist: Boy In Space
+Title: Drown
+mtime: 1716562835
+song_end
+song_begin: /data/data/com.termux/files/home/Music/Boy In Space - The Last Time [Official Audio] [oGgjIPXV_po].opus
+Time: 147.007000
+Artist: Boy In Space
+Title: The Last Time
+mtime: 1716286594
+song_end
+song_begin: /data/data/com.termux/files/home/Music/Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3
+Time: 208.065000
+Artist: Cartoon
+Title: On & On
+Album: NCS Release
+mtime: 1692524399
+song_end
+song_begin: /data/data/com.termux/files/home/Music/Celine Dion - Alone (radio version + lyrics) [Q22tlljnwOc].opus
+Time: 202.327000
+Artist: Celine Dion
+Title: Alone
+mtime: 1716562846
+song_end
+song_begin: /data/data/com.termux/files/home/Music/Culture Code - Make Me Move (feat. Karra) [NCS Release].mp3
+Time: 196.101000
+Artist: Culture Code
+Title: Make Me Move
+Album: NCS Release
+mtime: 1692524399
+song_end
+song_begin: /data/data/com.termux/files/home/Music/Céline Dion - I Drove All Night (Official Video) [kvz_gW5C2cY].opus
+Time: 238.867000
+Artist: Celine Dion
+Title: I Drove All Night
+mtime: 1716562859
+song_end
+song_begin: /data/data/com.termux/files/home/Music/DMX - The Rain (Music Video) [PBNt9n2KXSA].opus
+Time: 204.687000
+Artist: DMX
+Title: The Rain
+mtime: 1716561526
+song_end
+song_begin: /data/data/com.termux/files/home/Music/DMX- Ayo Kato (with Lyrics) [GBDdy4WC9dc].opus
+Time: 227.127000
+Artist: DMX
+Title: Ayo Kato
+mtime: 1716561537
+song_end
+song_begin: /data/data/com.termux/files/home/Music/DREAMDNVR - AMNESIA (feat. Boy In Space) (lyrics) [9_9ItqSAbrw].opus
+Time: 175.807000
+Artist: DREAMDNVR
+Title: Amnesia
+mtime: 1716562872
+song_end
+song_begin: /data/data/com.termux/files/home/Music/Ed Sheeran - Best Part Of Me (feat. YEBBA).opus
+Time: 247.467000
+Artist: Ed Sheeran
+Title: Best Part Of Me (feat. YEBRA)
+mtime: 1716286522
+song_end
+song_begin: /data/data/com.termux/files/home/Music/Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3
+Time: 208.143000
+Artist: Janji
+Title: Heroes Tonight
+Album: NCS Release
+mtime: 1692524399
+song_end
+song_begin: /data/data/com.termux/files/home/Music/Lauv - I Like Me Better [Official Video] [BcqxLCWn-CE].opus
+Time: 205.127000
+Artist: Lauv
+Title: I Like Me Better
+mtime: 1716562884
+song_end
+song_begin: /data/data/com.termux/files/home/Music/Lauv - Love Somebody [Official Video] [CuI0WJwcvdU].opus
+Time: 143.587000
+Artist: Lauv
+Title: Love Somebody
+mtime: 1716562896
+song_end
+song_begin: /data/data/com.termux/files/home/Music/Lauv - Superhero [Official Video] [kb_e5UkI7ak].opus
+Time: 205.847000
+Artist: Lauv
+Title: Superhero
+mtime: 1716562905
+song_end
+song_begin: /data/data/com.termux/files/home/Music/Lauv - ＊＊＊＊, i'm lonely (with Anne-Marie).opus
+Time: 196.967000
+Artist: LAUV
+Title: Fuck, I'm Lonely
+mtime: 1716286458
+song_end
+song_begin: /data/data/com.termux/files/home/Music/LeAnn Rimes - Cant Fight The Moonlight (Official Music Video) [bx3s99FNXzI].opus
+Time: 227.287000
+Artist: Leann Rimes
+Title: Can't Fight The Moonlight
+mtime: 1716561618
+song_end
+song_begin: /data/data/com.termux/files/home/Music/Lewis Capaldi - Someone You Loved [zABLecsR5UE].opus
+Time: 186.667000
+Artist: Lewis Capaldi
+Title: Someone You Loved
+mtime: 1716562917
+song_end
+song_begin: /data/data/com.termux/files/home/Music/Mario - How Do I Breathe (Official Video) [hcie4MOU-wQ].opus
+Time: 218.707000
+Artist: Mario
+Title: How Do I Breathe
+mtime: 1716561633
+song_end
+song_begin: /data/data/com.termux/files/home/Music/Mario - Let Me Love You (Official Video) [H64QG4UsrGI].opus
+Time: 266.267000
+Artist: Mario
+Title: Let Me Love You
+mtime: 1716561646
+song_end
+song_begin: /data/data/com.termux/files/home/Music/Moon Represents My Heart.opus
+Time: 237.847000
+Artist: AYAGEUM
+Title: Moon Represents My Heart
+mtime: 1716286287
+song_end
+song_begin: /data/data/com.termux/files/home/Music/N3WPORT - Power (feat. braev) [NCS Release].mp3
+Time: 200.097000
+Artist: N3WPORT
+Title: Power
+Album: NCS Release
+Track: 3
+mtime: 1692524399
+song_end
+song_begin: /data/data/com.termux/files/home/Music/NEFFEX - Grateful [Copyright Free].mp3
+Time: 182.491000
+Artist: NEFFEX
+Title: Grateful
+Album: Grateful
+mtime: 1692524399
+song_end
+song_begin: /data/data/com.termux/files/home/Music/Niall Horan - No Judgement (Official Video) [CU5ImX_MNms].opus
+Time: 188.007000
+Artist: Niall Horan
+Title: No Judgement
+mtime: 1716561700
+song_end
+song_begin: /data/data/com.termux/files/home/Music/Outlandish - Aicha (Video) [f0nFTdKlKLw].opus
+Time: 247.827000
+Artist: Outlandish
+Title: Aicha
+mtime: 1716562929
+song_end
+song_begin: /data/data/com.termux/files/home/Music/Rob Thomas - Lonely No More (Official Video) [7spBU4Yv8fE].opus
+Time: 225.307000
+Artist: Rob Thomas
+Title: Lonely No More
+mtime: 1716562940
+song_end
+song_begin: /data/data/com.termux/files/home/Music/Rosie Darling & Boy In Space - Nail In The Coffin (Lyrics) [YC5gw5UNETo].opus
+Time: 226.147000
+Artist: Boy In Space
+Title: Nail In Coffin (Feat. Rosie)
+mtime: 1716626406
+song_end
+song_begin: /data/data/com.termux/files/home/Music/Sasha Alex Sloan - Older (Lyric Video) [r1Fx0tqK5Z4].opus
+Time: 191.547000
+Artist: Sasha Sloan
+Title: Older
+mtime: 1716562950
+song_end
+song_begin: /data/data/com.termux/files/home/Music/Surrender - Natalie Taylor [caoP4dj2oro].opus
+Time: 185.847000
+Artist: Natalie Taylor
+Title: Surrender
+mtime: 1716561669
+song_end
+song_begin: /data/data/com.termux/files/home/Music/The Very Best Of ENYA： The Greatest Hits Full Album Ever [6P4RWI-LbrE].opus
+Time: 6607.187000
+Artist: ENYA
+Title: Best Hits
+mtime: 1716562976
+song_end
+song_begin: /data/data/com.termux/files/home/Music/Troye Sivan - Angel Baby.opus
+Time: 221.027000
+Artist: Troye Sivan
+Title: Angel Baby
+mtime: 1716286629
+song_end
+song_begin: /data/data/com.termux/files/home/Music/Usher - Burn (Official Music Video) [t5XNWFw5HVw].opus
+Time: 267.747000
+Artist: Usher
+Title: Burn
+mtime: 1716562986
+song_end
+playlist_end
