@@ -1,5 +1,5 @@
 #!/bin/bash
-#git clone git@github.com:19uncleiroh/Termux-i3---Starlike-Mobile-Desktop.git
+
 # Base Setup
 pkg update && upgrade -y
 pkg install x11-repo
