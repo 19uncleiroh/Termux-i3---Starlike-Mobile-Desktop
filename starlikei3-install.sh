@@ -29,6 +29,7 @@ pkg install mpc -y		#necessary for bottom bar widget - very optional
 pkgs=(
 'firefox'		# web browser
 'peaclock'		# simple customizable terminal clock widget
+'micro'      #minimal cli editor, for when nano is not enough
 'ranger'		# powerful cli file manager
 'nano'			# simple text editor in terminal
 'ani-cli'		# anime client
