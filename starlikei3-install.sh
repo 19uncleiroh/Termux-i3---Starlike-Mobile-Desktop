@@ -92,7 +92,7 @@ proot-distro install debian
 #mv Termux-i3---Starlike-Mobile-Desktop Starlike
 
 # Make Scripts Executable Without ./x.sh  & Move to System Bin
-cd scripts
+cd ~/Starlike/scripts
 chmod +x cp2menu debian killi3 op opf prun pruns starti3 zrun zrunhud
 cd
 find ~/Starlike/scripts -type f -print0 | xargs -0 mv -t $PREFIX/bin
