@@ -4,4 +4,6 @@ Download Termux:X11 - Need this to display the Desktop Environment separate of A
 Paste the command to Termux:
 pkg install git -y && git clone https://github.com/19uncleiroh/Termux-i3---Starlike-Mobile-Desktop.git && mv Termux-i3---Starlike-Mobile-Desktop Starlike && chmod +x ~/Starlike/starlikei3-install.sh && ~/Starlike/starlikei3-install.sh
 
+Press Y for when it asks y/N - Press N when it asks for N Default
+
 Once the installation finishes, type starti3 and it should auto-start the desktop with a preconfigured program layout (personally customizable)
