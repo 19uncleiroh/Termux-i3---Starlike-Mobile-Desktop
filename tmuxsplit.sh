@@ -1,3 +1,0 @@
-#!/bin/bash
-
-tmux new-session \; split-window -h \;  attach
