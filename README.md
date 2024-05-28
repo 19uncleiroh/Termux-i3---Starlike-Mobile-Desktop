@@ -4,7 +4,7 @@ Download Termux:X11 - Need this to display the Desktop Environment separate of A
 
 Paste the command to Termux:
 
-<blockquote> pkg install git -y && git clone https://github.com/19uncleiroh/Termux-i3---Starlike-Mobile-Desktop.git && mv Termux-i3---Starlike-Mobile-Desktop Starlike && chmod +x ~/Starlike/starlikei3-install.sh && ~/Starlike/starlikei3-install.sh </blockquote>
+<codeblock> pkg install git -y && git clone https://github.com/19uncleiroh/Termux-i3---Starlike-Mobile-Desktop.git && mv Termux-i3---Starlike-Mobile-Desktop Starlike && chmod +x ~/Starlike/starlikei3-install.sh && ~/Starlike/starlikei3-install.sh </codeblock>
 
 Press Y for when it asks y/N - Press N when it asks for N Default
 
