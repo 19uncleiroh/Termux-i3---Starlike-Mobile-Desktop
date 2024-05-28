@@ -23,7 +23,7 @@ pkg install tur-repo -y		#access to chromium, vss code, etc. - if you are happy 
 
 pkgs=(
 'mpc'      #necessary for bottom bar widget - very optional
-'pulseaudio'#for music playback via browsers, not necessary for local audio players etc.
+'pulseaudio'  #for music playback via browsers, not necessary for local audio players etc.
 'firefox'		# web browser
 'peaclock'		# simple customizable terminal clock widget
 'micro'      #minimal cli editor, for when nano is not enough
