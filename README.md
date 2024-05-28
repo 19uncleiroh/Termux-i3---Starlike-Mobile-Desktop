@@ -21,6 +21,6 @@ To KILL i3 session and kill Termux, there are 3 methods:
 
 Method 1 (Recommended): ```Alt + Ctrl + k```
 
-Method 2: ```Alt + d``` opens program menu. Chooss <blockquote>Kill i3</blockqute> and either double-click it or press Enter.
+Method 2: ```Alt + d``` opens program menu. Chooss <blockquote>Kill i3</blockquote> and either double-click it or press Enter.
 
-Method 3: Open any terminal type <blockquote>killi3<blockquote>, then hit ```Enter```.
+Method 3: Open any terminal type <blockquote>killi3</blockquote>, then hit ```Enter```.
