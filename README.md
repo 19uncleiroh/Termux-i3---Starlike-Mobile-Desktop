@@ -42,7 +42,7 @@ To see my custom keybindings, type ```nano ~/.config/i3/config```. A config file
 
 You'll mostly use the following shortcuts:
 
-Alt is the Superkey for everything - remember that.
+```Alt``` is the Superkey for everything - remember that.
 
 ```Alt + d``` - opens program launcher. (Alt+1/2/3/4 to navigate between tabs while it's open). Esc to close.
 
@@ -70,7 +70,6 @@ Note: you can also move windows around with a mouse, similar to how you'd do it 
 
 ```Alt + Number (e.g. 2)``` - jumps to a different workplace
 
-
-
+For more advanced shortcuts, see https://i3wm.org/docs/refcard.html
 
 
