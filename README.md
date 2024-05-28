@@ -18,7 +18,7 @@ pkg install git -y && git clone https://github.com/19uncleiroh/Termux-i3---Starl
 
 Press ```y``` + ```Enter``` for when it asks y/N - Press ```N``` + ```Enter``` when it asks for N Default.
 
-After a the first minute (once you chose N four times), you no longer need to monitor the installer. Rest should be fully automated and you can keep it running in the background. All that's left is waiting for the installer to finish.
+After choosing N four times, you no longer need to monitor the installer. Rest should be fully automated - you can run it in the background. All that's left is waiting for the installer to finish.
 
 # Starting the Desktop
 
@@ -32,4 +32,4 @@ Method 1 (Recommended): ```Alt + Ctrl + k```
 
 Method 2: ```Alt + d``` opens program menu. Navigate to ```Kill i3``` and either double-click it or press Enter.
 
-Method 3: Open any terminal type ```killi3```, then hit ```Enter```.
+Method 3: Open any terminal and type ```killi3```, then hit ```Enter```.
