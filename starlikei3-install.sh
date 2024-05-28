@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # Base Setup
-pkg update -y
 yes | pkg upgrade
 pkg install x11-repo -y
 pkg install termux-x11-nightly -y
