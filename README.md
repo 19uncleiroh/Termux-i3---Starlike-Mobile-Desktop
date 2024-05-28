@@ -1,11 +1,18 @@
-Download Termux (open source terminal for Android) - https://f-droid.org/repo/com.termux_118.apk
+Download Termux - Open source terminal for Android:
 
-Download Termux:X11 - Need this to display the Desktop Environment separate of Android : https://github.com/termux/termux-x11/releases
+https://f-droid.org/repo/com.termux_118.apk
+
+Download Termux:X11 - Need this to display the Desktop Environment separate of Android:
+
+https://github.com/termux/termux-x11/releases
+
 
 Paste the command to Termux:
 
-<codeblock> pkg install git -y && git clone https://github.com/19uncleiroh/Termux-i3---Starlike-Mobile-Desktop.git && mv Termux-i3---Starlike-Mobile-Desktop Starlike && chmod +x ~/Starlike/starlikei3-install.sh && ~/Starlike/starlikei3-install.sh </codeblock>
+```
+pkg install git -y && git clone https://github.com/19uncleiroh/Termux-i3---Starlike-Mobile-Desktop.git && mv Termux-i3---Starlike-Mobile-Desktop Starlike && chmod +x ~/Starlike/starlikei3-install.sh && ~/Starlike/starlikei3-install.sh
+```
 
-Press Y for when it asks y/N - Press N when it asks for N Default
+Press ```Y + Enter``` for when it asks y/N - Press ```N + Enter``` when it asks for N Default
 
-Once the installation finishes, type starti3 and it should auto-start the desktop with a preconfigured program layout (personally customizable)
+Once the installation finishes, type ```starti3``` and hit ```Enter``` and it should auto-start the desktop with a preconfigured program layout (personally customizable)
