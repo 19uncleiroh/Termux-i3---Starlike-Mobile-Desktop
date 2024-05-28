@@ -52,8 +52,8 @@ pkgs=(
 pkg install "${pkgs[@]}" -y -o Dpkg::Options::="--force-confold"
 
 # Install PIP Packages (Python Required)
-pip install tuir -y	#commandline reddit client for quick browsing
-pip install pulsemixer -y	#minimalist cli-based volume control
+yes | pip install tuir    #commandline reddit client for quick browsing
+yes | pip install pulsemixer    #minimalist cli-based volume control
 
 #############################################################################
 
