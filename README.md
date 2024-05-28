@@ -16,9 +16,11 @@ Paste the command to Termux:
 pkg install git -y && git clone https://github.com/19uncleiroh/Termux-i3---Starlike-Mobile-Desktop.git && mv Termux-i3---Starlike-Mobile-Desktop Starlike && chmod +x ~/Starlike/starlikei3-install.sh && ~/Starlike/starlikei3-install.sh
 ```
 
-Press ```y``` + ```Enter``` for when it asks y/N - Press ```N``` + ```Enter``` when it asks for N Default.
+Unlike other installers, I've tried to automate the package upgrade and installation (no prompts) process as well, so it should not require any user input from start to finish.
 
-After choosing ```N``` <b>6 times</b>, you no longer need to monitor the installer. Rest should be fully automated - you can run it in the background. All that's left is waiting for the installer to finish.
+However, if prompts occur, press ```y``` + ```Enter``` for when it asks y/N - Press ```N``` + ```Enter``` when it asks for N Default.
+
+Installation is done when you see a Debian prompt to log in, followed by an empty line starting with $ and cursor blinking.
 
 # Starting the Desktop
 
