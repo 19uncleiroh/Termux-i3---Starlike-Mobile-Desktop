@@ -13,6 +13,14 @@ Paste the command to Termux:
 pkg install git -y && git clone https://github.com/19uncleiroh/Termux-i3---Starlike-Mobile-Desktop.git && mv Termux-i3---Starlike-Mobile-Desktop Starlike && chmod +x ~/Starlike/starlikei3-install.sh && ~/Starlike/starlikei3-install.sh
 ```
 
-Press ```Y + Enter``` for when it asks y/N - Press ```N + Enter``` when it asks for N Default
+Press ```y``` + ```Enter``` for when it asks y/N - Press ```N``` + ```Enter``` when it asks for N Default
 
-Once the installation finishes, type ```starti3``` and hit ```Enter``` and it should auto-start the desktop with a preconfigured program layout (personally customizable)
+Once the installation finishes, type ```starti3``` and hit ```Enter``` and it should auto-start the desktop with a preconfigured program layout (personally customizable).
+
+To KILL i3 session and kill Termux, there are 3 methods:
+
+Method 1 (Recommended): ```Alt + Ctrl + k```
+
+Method 2: ```Alt + d``` opens program menu. Chooss <blockquote>Kill i3</blockqute> and either double-click it or press Enter.
+
+Method 3: Open any terminal type <blockquote>killi3<blockquote>, then hit ```Enter```.
