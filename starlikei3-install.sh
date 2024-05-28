@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Base Setup
-pkg update && upgrade -y
-pkg install x11-repo
-pkg install termux-x11-nightly
+pkg update && upgrade -n
+pkg install x11-repo -y
+pkg install termux-x11-nightly -y
 
 # Choose DE/WM
 pkg install i3 -y		#low resource and ez to configure window manager for keyboard-centric workflows
@@ -16,17 +16,14 @@ pkg install picom -y		#not necessary if you don't want window transparency
 ####   Install Termux:X11 app at this point onto your Android system - necessary to launch the GUI and see your desktop    ####
 
 # Prepare More Repositories / Packages
-pkg install python		#access to python packages (don't need if ranger is installed first, as it auto-downloads it)
-pkg install tur-repo		#access to chromium, vss code, etc. - if you are happy with nvim and firefox, not necessary
-
-# Setup Audio
-pkg install pulseaudio -y	#for music playback via browsers, not necessary for local audio players etc.
-pip install pulsemixer -y	#minimalist cli-based volume control
-pkg install mpc -y		#necessary for bottom bar widget - very optional
+pkg install python -y	#access to python packages (don't need if ranger is installed first, as it auto-downloads it)
+pkg install tur-repo -y		#access to chromium, vss code, etc. - if you are happy with nvim and firefox, not necessary
 
 #Define Optional Software to Be Installed (Feel Free to Modify Selection)
 
 pkgs=(
+'mpc'      #necessary for bottom bar widget - very optional
+'pulseaudio'#for music playback via browsers, not necessary for local audio players etc.
 'firefox'		# web browser
 'peaclock'		# simple customizable terminal clock widget
 'micro'      #minimal cli editor, for when nano is not enough
@@ -49,7 +46,7 @@ pkgs=(
 'git'			# valuable for codebase access and/or development work
 'wget'			# pull targeted repos from gitlab
 'xdotool'		# dependency for startup scripts and rofi app launcher - if you don't need automated app-startups or rofi you can skip
-#add text base browser if necessary, e.g. w3m, links2, lynx, etc.
+'links2'    #terminal web browser
 )
 
 #Execute the Install without asking for permission at every package. Remove everything after "${pkgs[@]}" if you wish to manually approve every package size.
@@ -58,39 +55,14 @@ pkg install "${pkgs[@]}" -y -o Dpkg::Options::="--force-confold"
 
 # Install PIP Packages (Python Required)
 
-pip install tuir	#commandline reddit client for quick browsing
+pip install tuir -y	#commandline reddit client for quick browsing
+pip install pulsemixer -y	#minimalist cli-based volume control
 
-######################   OPTIONAL - Set up Debian Proot for Additional Packages - Only Necessary if You NEED Packages From Debian Repos
-
-pkg install proot-distro -y
-proot-distro install debian
-# proot-distro login debian #cant log in during the script, only via prun later, otherwise itll get stuck here after login as it cant execute things in debian
-# apt update
-# apt install alacritty -y
-#use these as last commands
-
-# SUPER OPTIONAL if you want a GUI for debian side too - mostly unnecessary
-
-#proot-distro login debian
-#apt install i3
-#cp $PREFIX/data/data/com.termux/files/usr/bin/starti3 ./
-### you can edit the copied starti3 now and edit to liking (e.g. assign a separate display to it if you want want to run both GUIs simultaneously)
-#exit
-
-############################  END PROOT DISTRO  ###################################################
-
-
+#############################################################################
 
 #Rename i3 to any DE/WM you chose in starti3 script
 
-#Create .Xresources
-#Add Xft.dpi: 144
-
-
 #################################  APPEARANCE  & DESKTOP   ###################################################
-
-# Clone Repo & Rename Folder -- IMPORTANT - when you make it public eventually, change to HTML instead of SSH
-#mv Termux-i3---Starlike-Mobile-Desktop Starlike
 
 # Make Scripts Executable Without ./x.sh  & Move to System Bin
 cd ~/Starlike/scripts
@@ -133,6 +105,24 @@ rm -rf Starlike
 
 ####################################################################################################################
 
+######################   OPTIONAL - Set up Debian Proot for Additional Packages - Only Necessary if You NEED Packages From Debian Repos
+
+pkg install proot-distro -y
+proot-distro install debian
+# proot-distro login debian #cant log in during the script, only via prun later, otherwise itll get stuck here after login as it cant execute things in debian
+# apt update
+# apt install alacritty -y
+#use these as last commands
+
+# SUPER OPTIONAL if you want a GUI for debian side too - mostly unnecessary
+
+#proot-distro login debian
+#apt install i3
+#cp $PREFIX/data/data/com.termux/files/usr/bin/starti3 ./
+### you can edit the copied starti3 now and edit to liking (e.g. assign a separate display to it if you want want to run both GUIs simultaneously)
+#exit
+
+############################  END PROOT DISTRO  ##################################################
 
 
 ##################### READ ME - TROUBLESHOOTING AND ADDITIONAL TIPS ###############################
