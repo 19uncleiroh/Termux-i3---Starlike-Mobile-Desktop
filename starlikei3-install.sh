@@ -46,7 +46,7 @@ pkgs=(
 'git'			# valuable for codebase access and/or development work
 'wget'			# pull targeted repos from gitlab
 'xdotool'		# dependency for startup scripts and rofi app launcher - if you don't need automated app-startups or rofi you can skip
-'links2'    #terminal web browser
+'w3m'    #terminal web browser
 )
 
 #Execute the Install without asking for permission at every package. Remove everything after "${pkgs[@]}" if you wish to manually approve every package size.
