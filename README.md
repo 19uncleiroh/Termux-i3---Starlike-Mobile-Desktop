@@ -24,11 +24,11 @@ After choosing N four times, you no longer need to monitor the installer. Rest s
 
 Once the installation finishes, type ```starti3``` and hit ```Enter``` and it should auto-start the desktop with a preconfigured program layout (personally customizable).
 
-# Shutting Dowm
+# Shutting Down
 
 To KILL the i3 session and Termux, there are 3 methods:
 
-Method 1 (Recommended): ```Alt + Ctrl + k```
+Method 1 (Recommended): ```Alt + Ctrl + k```. You can modify this in i3config, type ```nano ~/.config/i3/config``` in a terminal and ```Enter```.
 
 Method 2: ```Alt + d``` opens program menu. Navigate to ```Kill i3``` and either double-click it or press Enter.
 
