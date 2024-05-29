@@ -11,6 +11,9 @@ xdotool exec xfce4-terminal -e peaclock
 sleep 0.5
 xdotool key Alt+v
 xdotool exec xfce4-terminal -e ncmpcpp
+xdotool key Alt+r
+xdotool key Left Left Left Left Left Left
+xdotool key Escape
 sleep 0.5
 
 #Set up Workspace 3
