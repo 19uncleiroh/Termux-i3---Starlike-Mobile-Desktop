@@ -121,6 +121,8 @@ proot-distro install debian
 ############################  END PROOT DISTRO  ##################################################
 
 ## Start Desktop in 1st Time Mode (Sets Up Firefox Plugins & (TODO) Prompts Manual
+mv ~/Starlike/tridactyl.xpi ~/
+
 mv ~/Starlike/starti3-1 ~/
 chmod +x starti3-1
 ./starti3-1
@@ -129,6 +131,8 @@ chmod +x starti3-1
 sleep 5
 rm -rf Starlike
 rm starti3-1
+rm master.zip
+rm tridactyl.xpi
 
 ##################### READ ME - TROUBLESHOOTING AND ADDITIONAL TIPS ###############################
 
