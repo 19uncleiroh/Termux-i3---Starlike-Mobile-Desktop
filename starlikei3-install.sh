@@ -96,6 +96,12 @@ pkg install papirus-icon-theme
 sleep 3
 rm -rf Starlike
 
+# Set up GTK Theme
+
+wget https://github.com/dracula/gtk/archive/master.zip
+unzip master.zip
+mv gtk-master $PREFIX/share/themes
+
 ####################################################################################################################
 
 ######################   OPTIONAL - Set up Debian Proot for Additional Packages - Only Necessary if You NEED Packages From Debian Repos
