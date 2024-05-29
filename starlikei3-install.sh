@@ -73,7 +73,7 @@ find ~/Starlike/Fonts -type f -print0 | xargs -0 mv -t $PREFIX/share/fonts
 
 # Import Wallpaper
 mkdir Wallpapers
-mv ~/Starlike/Wallpapers/wallpaper.jpg ~/Wallpapers
+mv ~/Starlike/Wallpapers/wallpaper.png ~/Wallpapers
 
 #Import i3status (Toolbar Dependency) & XResources (scaling - depending on your display you might want to adjust the DPI)
 mv ~/Starlike/i3status.conf $PREFIX/etc
