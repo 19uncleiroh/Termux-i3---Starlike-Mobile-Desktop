@@ -26,6 +26,8 @@ Installation is done when you see a Debian prompt to log in, followed by an empt
 
 Once the installation finishes, type ```starti3``` and hit ```Enter``` and it should auto-start the desktop with a preconfigured program layout (personally customizable).
 
+During your startup, you'll see physical "helper" keyboard on the screen. You can disable that by Press-and-Holding Termux:x11 application - pressing preferences, and disabling the Soft Keyboard. Also, enable full-screen interactive mode in the same settings while you're at it.
+
 # Shutting Down
 
 To KILL the i3 session and Termux, there are 3 methods:
