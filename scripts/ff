@@ -1,0 +1,16 @@
+#!/bin/bash
+
+FILE=$(fzf);
+
+ext="${FILE##*.}"
+    if [[ $ext == png ]]; then
+        (feh $FILE)
+    elif [[ $ext == opus ]]; then
+        (mpv $FILE)
+    elif [[ $ext == txt ]]; then
+        (micro $FILE)
+    elif [[ $ext == * ]]; then
+        (nano $FILE)
+    fi
+done
+
