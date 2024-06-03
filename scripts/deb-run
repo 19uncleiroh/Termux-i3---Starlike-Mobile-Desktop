@@ -1,5 +1,4 @@
 #!/bin/bash
-varname=$(basename $root/../usr/var/lib/proot-distro/installed-rootfs/debian/home/*)
 proot-distro login debian  --shared-tmp -- env DISPLAY=:0 nohup $@ &
 
 sleep 2
