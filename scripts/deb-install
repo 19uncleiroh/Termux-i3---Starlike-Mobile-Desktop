@@ -9,7 +9,7 @@ proot-distro login debian --shared-tmp -- env DISPLAY=:0 cp "/usr/share/applicat
  
 cd $PREFIX/share/applications
 
-sed -i "s/.*Exec=.*/Exec=proot-distro login debian --shared-tmp -- env DISPLAY=:0 xfce4-taskmanager &/g" $@.desktop
+sed -i "s/.*Exec=.*/Exec=proot-distro login debian --shared-tmp -- env DISPLAY=:0 $@ &/g" $@.desktop
 
 cd
 
