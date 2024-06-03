@@ -1,0 +1,15 @@
+#!/bin/bash
+
+proot-distro login debian --shared-tmp -- env DISPLAY=:0 apt install $@
+
+sleep 5
+
+proot-distro login debian --shared-tmp -- env DISPLAY=:0 cp "/usr/share/applications/$@.desktop" "$PREFIX/share/applications/"
+
+ 
+cd $PREFIX/share/applications
+
+sed -i "s/^Exec=\(.*\)$/Exec=proot-distro login debian --shared-tmp -- env DISPLAY=:0 \1/g" $@.desktop
+
+cd
+
