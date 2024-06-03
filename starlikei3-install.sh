@@ -63,7 +63,7 @@ yes | pip install pulsemixer    #minimalist cli-based volume control
 
 # Make Scripts Executable Without ./x.sh  & Move to System Bin
 cd ~/Starlike/scripts
-chmod +x cp2menu debian killi3 op opf prun pruns starti3 zrun zrunhud
+chmod +x deb-run deb-install debian killi3 op opf starti3 zrun ff fff
 cd
 find ~/Starlike/scripts -type f -print0 | xargs -0 mv -t $PREFIX/bin
 
