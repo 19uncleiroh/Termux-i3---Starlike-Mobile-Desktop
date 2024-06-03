@@ -1,3 +1,0 @@
-#!/bin/bash
-pd login debian --shared-tmp -- env DISPLAY=:0 MESA_LOADER_DRIVER_OVERRIDE=zink TU_DEBUG=noconform GALLIUM_HUD=fps $@
-
